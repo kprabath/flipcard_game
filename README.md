@@ -1,1 +1,1 @@
-# singtel-test-kasun-prabath
+# Flip Card game - just for fun
