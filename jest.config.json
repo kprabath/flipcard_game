@@ -1,0 +1,14 @@
+{
+    "preset": "@testing-library/react-native",
+    "collectCoverageFrom": ["src/**/*.{ts,tsx}"],
+    "moduleDirectories": ["node_modules", "src"],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?(@?react-native|@?react-navigation|@react-native-community|@react-native-firebase))"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/App.tsx",
+      "/src/reducers/root.reducer.ts",
+      "/src/constants/actions.constants.ts"
+    ]
+  }

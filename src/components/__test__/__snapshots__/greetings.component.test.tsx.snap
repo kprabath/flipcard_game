@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GreetingsComponents should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,0,0,0.2)",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "scale": 0,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "paddingHorizontal": 75,
+            "paddingVertical": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 33,
+              "fontWeight": "500",
+              "marginBottom": 5,
+            }
+          }
+        >
+          Congratulations!
+        </Text>
+        <Text
+          style={
+            Object {
+              "fontSize": 16.5,
+            }
+          }
+        >
+          You win this game by 0 steps!
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "lightgray",
+            "borderTopWidth": 1,
+            "paddingVertical": 7.5,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#318CE7",
+                "fontSize": 33,
+              }
+            }
+          >
+            Try another round
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
